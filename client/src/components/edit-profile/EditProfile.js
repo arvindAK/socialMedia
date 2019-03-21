@@ -202,7 +202,6 @@ class CreateProfile extends Component {
                   info="A unique handle for your profile URL. Your full name, company name, nickname"
                 />
                 <SelectListGroup
-                  placeholder="Status"
                   name="status"
                   value={this.state.status}
                   options={options}
@@ -235,7 +234,7 @@ class CreateProfile extends Component {
                   info="What's the closest city to you"
                 />
                 <TextFieldGroup
-                  placeholder="Skills"
+                  placeholder="* Skills"
                   name="skills"
                   value={this.state.skills}
                   onChange={this.onChange}
